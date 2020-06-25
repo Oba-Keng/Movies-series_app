@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/regions/Home";
+import Header from "./components/regions/Home";
+import Categories from "./components/regions/Categories";
 
 function App() {
   return (
     <div>
-      <Home />
+      <Header />
+      <Categories />
     </div>
   );
 }
