@@ -7,7 +7,7 @@ export default function Header() {
     <HeaderContainer>
       <h1 className="App">
         Demo Streaming
-        <button classname="btn btn-primary"></button>{" "}
+        <button classname="btn btn-primary"></button>
         <button classname="btn btn-primary"></button>
       </h1>
     </HeaderContainer>
