@@ -5,11 +5,11 @@ import styled from "styled-components";
 export default function Header() {
   return (
     <HeaderContainer>
-      <h1 className="App">
-        Demo Streaming
+      <div className="App">
+        <h3>Demo Streaming</h3>
         <button classname="btn btn-primary"></button>
         <button classname="btn btn-primary"></button>
-      </h1>
+      </div>
     </HeaderContainer>
   );
 }
@@ -19,7 +19,7 @@ const HeaderContainer = styled.header`
   color: white;
   height: 4rem;
 
-  h1 {
+  h3 {
     top: 25%;
   }
 
