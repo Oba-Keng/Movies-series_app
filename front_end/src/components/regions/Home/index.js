@@ -17,6 +17,7 @@ export default function Header() {
 const HeaderContainer = styled.header`
   background: blue;
   color: white;
+  height: 4rem;
 
   h1 {
     top: 25%;
