@@ -7,6 +7,6 @@ export default function Bar() {
 
 const BarContainer = styled.footer`
   background: grey;
-  height: 4rem;
+  height: 3rem;
   color: white;
 `;

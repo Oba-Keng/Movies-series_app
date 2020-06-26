@@ -1,11 +1,11 @@
 import React from "react";
-import Categories from "../Categories";
 import styled from "styled-components";
+import NavBar from "./navBar";
 
 export default function Footer() {
   return (
     <FooterContainer>
-      <Categories />
+      <NavBar />
     </FooterContainer>
   );
 }
