@@ -20,11 +20,11 @@ const Button = styled.button`
   font-family: sans-serif;
   font-size: 1.3rem;
   border: none;
-  height: 150px;
-  width: 120px;
+  height: 170px;
+  width: 140px;
   margin: 5px;
   color: white;
-  background-color: black;
+  background: url(/film.jpg)no-repeat center/cover;
   top: 40px;
   top-margin 10px;
 `;
