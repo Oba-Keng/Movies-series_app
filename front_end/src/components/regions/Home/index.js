@@ -7,17 +7,26 @@ export default function Header() {
     <HeaderContainer>
       <div className="App">
         <h3>Demo Streaming</h3>
-        <button classname="btn btn-primary">Log in</button>
-        <button classname="btn btn-primary">Start your free trial</button>
+        <Button>Log in</Button>
+        <Button>Start your</Button>
       </div>
     </HeaderContainer>
   );
 }
 
+const Button = styled.button`
+  margin: 3px;
+  width: 60px;
+  height: 20px;
+  border: none;
+  margin-top: -20px;
+  margin-right: 50px;
+`;
+
 const HeaderContainer = styled.header`
   background: blue;
   color: white;
-  height: 4rem;
+  height: 3rem;
 
   h3 {
     top: 25%;
