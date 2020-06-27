@@ -7,8 +7,8 @@ export default function Header() {
     <HeaderContainer>
       <div className="App">
         <h3>Demo Streaming</h3>
-        <button classname="btn btn-primary"></button>
-        <button classname="btn btn-primary"></button>
+        <button classname="btn btn-primary">Log in</button>
+        <button classname="btn btn-primary">Start your free trial</button>
       </div>
     </HeaderContainer>
   );

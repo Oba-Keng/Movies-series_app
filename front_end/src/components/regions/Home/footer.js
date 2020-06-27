@@ -6,6 +6,14 @@ export default function Footer() {
   return (
     <FooterContainer>
       <NavBar />
+      <div>
+        <a className="icon">
+          <i className="fa fa-facebook"></i>
+        </a>
+        <a className="icon">
+          <i className="fa fa-twitter"></i>
+        </a>
+      </div>
     </FooterContainer>
   );
 }
