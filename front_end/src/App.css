@@ -9,9 +9,7 @@
   box-sizing: border-box;
 }
 
-content-button {
-
-    width: 40px;
-    height: 40px;
-
+.icon {
+  width: 40px;
+  height: 40px;
 }

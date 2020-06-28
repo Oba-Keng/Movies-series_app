@@ -10,7 +10,7 @@ export default function Footer() {
         <a className="icon">
           <i className="fa fa-facebook"></i>
         </a>
-        <a className="icon">
+        <a className="icon" href="#">
           <i className="fa fa-twitter"></i>
         </a>
       </div>
