@@ -4,21 +4,22 @@ import NavBar from "./navBar";
 
 export default function Footer() {
   return (
-    <FooterContainer>
-      <NavBar />
-      <div>
+    <React.Fragment>
+      <FooterContainer>
+        <NavBar />
         <a className="icon">
           <i className="fa fa-facebook"></i>
         </a>
         <a className="icon" href="#">
           <i className="fa fa-twitter"></i>
         </a>
-      </div>
-    </FooterContainer>
+      </FooterContainer>
+    </React.Fragment>
   );
 }
 
 const FooterContainer = styled.footer`
+  // background-color: $primary !important
   background: black;
   height: 4rem;
   position: fixed;

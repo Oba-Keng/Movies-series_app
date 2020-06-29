@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Movie from "../components/regions/movies/presentation";
+import MovieRequest from "../components/regions/Home/content";
 
 class OmdbClient extends Component {
   constructor(props) {
@@ -11,7 +11,7 @@ class OmdbClient extends Component {
       <div>
         <p>GoodDay,please enter movie you would like to search for below...</p>
 
-        <Movie />
+        <MovieRequest />
       </div>
     );
   }

@@ -13,17 +13,20 @@ export default class MovieRequest extends Component {
 
   keywordChanged = e => this.setState({ keyword: e.target.value });
 
+  // =${this.state.keyword}
+
   searchMovie = () =>
-    fetch(
-      `http://www.omdbapi.com/?apikey=539d07a9&s=${this.state.keyword}`
-    ).then(response => response.json().then(this.renderMovies));
+    fetch(`http://www.omdbapi.com/?apikey=539d07a9&s`).then(response =>
+      response.json().then(this.renderMovies)
+    );
 
   renderMovies = response => this.setState({ movies: response.Search });
 
-  // toggleNewMovieModal() {
-  //   this.setState({
-  //     newMovieModal: !this.state.newMovieModal
-  //   });
+  toggleNewMovieModal() {
+    this.setState({
+      newMovieModal: !this.state.newMovieModal
+    });
+  }
 
   render() {
     return (
